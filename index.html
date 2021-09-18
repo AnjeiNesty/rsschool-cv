@@ -9,13 +9,19 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container markdown">
       <h1>
         <a href="https://github.com/AnjeiNesty/rsschool-cv/">rsschool-cv</a>
       </h1>
       <h1>Andrey Nestsiaruk</h1>
-      <img src="./images/avatar.jpg" width="200" height="200" alt="people avatar">
-      <h2>My Contact Info:</h2>
+      <img
+        class="with-border-radius"
+        src="./images/avatar.jpg"
+        width="200"
+        height="200"
+        alt="people avatar"
+      />
+      <h1>My Contact Info:</h1>
       <ul>
         <li>
           <strong>Phone:</strong>
@@ -34,7 +40,7 @@
           <a href="https://www.linkedin.com/in/anjeinesty/">AnjeiNesty</a>
         </li>
       </ul>
-      <h2>About me:</h2>
+      <h1>About me:</h1>
       <blockquote>
         <p>
           I'm work as a frontend developer. I take courses to check myself and
@@ -43,7 +49,7 @@
         </p>
       </blockquote>
 
-      <h2>Scills:</h2>
+      <h1>Scills:</h1>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -57,38 +63,41 @@
         <li>VueJs, Vuex</li>
         <li>React (basic level)</li>
       </ul>
-      <h2>Code Examples:</h2>
-      <code>
-        let mas = [<br />
-        "banana",<br />
-        "orange",<br />
-        "orange",<br />
-        "grape",<br />
-        "orange",<br />
-        "banana",<br />
-        "apple",<br />
-        "grape",<br />
-        "grape",<br />
-        "banana",<br />
-        "orange",<br />
-        "apple",<br />
-        "lemon", ];<br /><br />
+      <h1>Code Examples:</h1>
 
-        function sortFructs(array) {<br />
-        let re = array.reduce((acc, cur) => {<br />
-        return {<br />
-        ...acc,<br />
-        [cur]: acc[cur] ? acc[cur] + 1 : 1<br />
-        }<br />
-        }, {});<br />
-        let sort = Object.keys(re).sort((a, b) => {<br />
-        return re[b] - re[a];<br />
-        });<br />
-        return sort;<br />
+      <div class="highlight">
+  <pre>
+    let mas = [
+    "banana",
+    "orange",
+    "orange",
+    "grape",
+    "orange",
+    "banana",
+    "apple",
+    "grape",
+    "grape",
+    "banana",
+    "orange",
+    "apple",
+    "lemon", ];
+
+    function sortFructs(array) {
+      let re = array.reduce((acc, cur) => {
+        return {
+            ...acc,
+            [cur]: acc[cur] ? acc[cur] + 1 : 1
         }
-      </code>
+      }, {});
+      let sort = Object.keys(re).sort((a, b) => {
+        return re[b] - re[a];
+      });
+      return sort;
+    }
+</pre>
+      </div>
 
-      <h2>Education:</h2>
+      <h1>Education:</h1>
       <ul>
         <li>
           <strong>BSTU: Higher education</strong>
@@ -110,14 +119,14 @@
         </li>
       </ul>
 
-      <h2>Experience:</h2>
+      <h1>Experience:</h1>
       <ul>
         <li>Landing pages, E-commerce websites and others</li>
         <li>I have development experience cross-platform SPA with Cordova</li>
         <li>A little bit experience with React Native + expo</li>
       </ul>
 
-      <h2>Languages:</h2>
+      <h1>Languages:</h1>
       <ul>
         <li>
           <strong>Russian</strong>
