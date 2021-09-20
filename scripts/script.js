@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     menu.addEventListener('click', function (e) {
         let link = e.target;
         if (link.classList.contains('link')) {
+            burger.classList.remove('is-active');
             this.closest('header').classList.remove('open-mobile');
             body.classList.remove('open-mobile-menu');
             e.preventDefault();

@@ -146,10 +146,6 @@ a.underline::before {
   color: var(--color-green);
 }
 
-.mb-45 {
-  margin-bottom: 45px;
-}
-
 .bg-white {
   background-color: var(--color-white);
 }
@@ -168,6 +164,10 @@ a.underline::before {
 
 .text-center {
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 .bg-block-top::before {
@@ -213,6 +213,10 @@ h4,
   font-weight: 400;
 }
 
+.mb-45 {
+  margin-bottom: 45px !important;
+}
+
 @media screen and (max-width: 767px) {
   h1,
   .h1 {
@@ -246,7 +250,7 @@ h4,
   }
 
   .mb-45 {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
 
   .padding {
@@ -466,6 +470,10 @@ nav ul li {
 }
 
 @media screen and (max-width: 767px) {
+  ul {
+    padding-left: 30px;
+  }
+
   header {
     margin-top: 0;
     margin-bottom: 35px;
@@ -517,7 +525,7 @@ nav ul li {
   font-weight: 400;
 }
 
-.about h1 {
+.about .h1 {
   margin-bottom: 0;
 }
 
