@@ -6,10 +6,202 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML, CSS & Git Basics</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="images/icons/css/Glyphter.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script defer src="./scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/go.min.js"></script>
+    <!-- <script>hljs.highlightAll();</script> -->
   </head>
 
-  <body>
-    <div class="container markdown">
+  <body class="bg-block-top hover">
+    <div class="container">
+      <header>
+        <div>
+          <h1 class="logo-name">
+            <span class="logo-name-name">Andrey</span>
+            <span class="logo-name-surname">Nestsiaruk</span>
+          </h1>
+          <p class="text-rigth">Web developer</p>
+        </div>
+        <div class="hamburger hamburger-slider js-hamburger">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+        <nav>
+          <ul class="uppercase">
+            <li class="item">
+              <a class="underline" href="#about">About me</a>
+            </li>
+            <li class="item"><a class="underline" href="#scills">Scills</a></li>
+            <li class="item">
+              <a class="underline" href="#examples">Code Examples</a>
+            </li>
+            <li class="item">
+              <a class="underline" href="#education">Education</a>
+            </li>
+            <li class="item">
+              <a class="underline" href="#experience">Experience</a>
+            </li>
+            <li class="item">
+              <a class="underline" href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="about block-shadow">
+          <figure class="block-image">
+            <img
+              class="avatar"
+              src="./images/avatar2.jpg"
+              width="320"
+              height="350"
+              alt="people on photo"
+            />
+          </figure>
+          <div class="information">
+            <div class="block-top">
+              <div class="">
+                <div class="decor-as-speech">Hello & Welcome</div>
+                <h1>
+                  <span class="regular">I'M</span>
+                  <span class="uppercase color-green">Andrey Nestsiaruk</span>
+                </h1>
+                <h3>Front-end developer</h3>
+                <hr />
+                <ul class="contacts">
+                  <li>
+                    <strong class="fixed-width">Age</strong>
+                    <span>30</span>
+                  </li>
+                  <li>
+                    <strong class="fixed-width">Location</strong>
+                    <span>Belarus, Brest</span>
+                  </li>
+                  <li>
+                    <strong class="fixed-width">Phone</strong>
+                    <a href="tel:375336728487">+375 33 672-84-87</a>
+                  </li>
+                  <li>
+                    <strong class="fixed-width">Email</strong>
+                    <a href="mail:anjeinesty@gmail.com">anjeinesty@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="block-bottom">
+              <ul class="social">
+                <li>
+                  <a
+                    class="link"
+                    href="https://www.linkedin.com/in/anjeinesty/"
+                  >
+                    <span hidden="true">linkedin</span>
+                    <i class="icon icon-glyphter icon-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="link vk" href="https://vk.com/anjeinesty">
+                    <span hidden="true">vk</span>
+                    <i class="icon icon-glyphter icon-vk"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="mailto:anjeinesty@gmail.com">
+                    <span hidden="true">email</span>
+                    <i class="icon icon-glyphter icon-mail"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="https://github.com/AnjeiNesty">
+                    <span hidden="true">github</span>
+                    <i class="icon icon-glyphter icon-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="skype:live:.cid.5f91afafff9b953d">
+                    <span hidden="true">scype</span>
+                    <i class="icon icon-glyphter icon-scype"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="skills">
+          <h1 class="uppercase color-green text-center mb-45">Skills</h1>
+          <div class="box-shadow two-column bg-white">
+            <div class="item">
+              <p>
+                I'm work as a frontend developer. I take courses to check myself
+                and learn something new that I don't know. My main target is
+                react, js and English. I'm ready to change my job.
+              </p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </div>
+            <div class="item">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </div>
+          </div>
+        </section>
+        <section class="code">
+          <h1 class="uppercase color-green text-center mb-45">Skills</h1>
+          <pre>
+            <code class="html">
+              let mas = [
+              "banana",
+              "orange",
+              "orange",
+              "grape",
+              "orange",
+              "banana",
+              "apple",
+              "grape",
+              "grape",
+              "banana",
+              "orange",
+              "apple",
+              "lemon", ];
+          
+              function sortFructs(array) {
+                let re = array.reduce((acc, cur) => {
+                  return {
+                      ...acc,
+                      [cur]: acc[cur] ? acc[cur] + 1 : 1
+                  }
+                }, {});
+                let sort = Object.keys(re).sort((a, b) => {
+                  return re[b] - re[a];
+                });
+                return sort;
+              }
+            </code>
+          </pre>
+
+        </section>
+      </main>
       <h1>
         <a href="https://github.com/AnjeiNesty/rsschool-cv/">rsschool-cv</a>
       </h1>
@@ -66,7 +258,7 @@
       <h1>Code Examples:</h1>
 
       <div class="highlight">
-  <pre>
+        <pre>
     let mas = [
     "banana",
     "orange",
@@ -94,7 +286,8 @@
       });
       return sort;
     }
-</pre>
+</pre
+        >
       </div>
 
       <h1>Education:</h1>
