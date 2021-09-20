@@ -37,26 +37,27 @@
         <nav>
           <ul class="uppercase">
             <li class="item">
-              <a class="underline" href="#about">About me</a>
-            </li>
-            <li class="item"><a class="underline" href="#scills">Scills</a></li>
-            <li class="item">
-              <a class="underline" href="#examples">Code Examples</a>
+              <a class="link underline" href="#about">About me</a>
             </li>
             <li class="item">
-              <a class="underline" href="#education">Education</a>
+              <a class="link underline" href="#scills">Scills</a></li>
+            <li class="item">
+              <a class="link underline" href="#code_examples">Code Examples</a>
             </li>
             <li class="item">
-              <a class="underline" href="#experience">Experience</a>
+              <a class="link underline" href="#education">Education</a>
             </li>
             <li class="item">
-              <a class="underline" href="#languages">Languages</a>
+              <a class="link underline" href="#experience">Experience</a>
+            </li>
+            <li class="item">
+              <a class="link underline" href="#languages">Languages</a>
             </li>
           </ul>
         </nav>
       </header>
       <main>
-        <section class="about block-shadow">
+        <section class="about block-shadow" id="about">
           <figure class="block-image">
             <img
               class="avatar"
@@ -135,7 +136,7 @@
             </div>
           </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="scills">
           <h1 class="uppercase color-green text-center mb-45">Skills</h1>
           <div class="block-shadow padding bg-white">
             <div class="two-column">
@@ -238,39 +239,39 @@
             </div>
           </div>
         </section>
-        <section class="code">
+        <section class="code" id="code_examples">
           <h1 class="uppercase color-green text-center mb-45">Code Examples</h1>
           <pre class="block-shadow"><code class="language-javascript">
-        let mas = [
-        "banana",
-        "orange",
-        "orange",
-        "grape",
-        "orange",
-        "banana",
-        "apple",
-        "grape",
-        "grape",
-        "banana",
-        "orange",
-        "apple",
-        "lemon", ];
-    
-        function sortFructs(array) {
-          let re = array.reduce((acc, cur) => {
-            return {
-                ...acc,
-                [cur]: acc[cur] ? acc[cur] + 1 : 1
-            }
-          }, {});
-          let sort = Object.keys(re).sort((a, b) => {
-            return re[b] - re[a];
-          });
-          return sort;
-        }
+let mas = [
+"banana",
+"orange",
+"orange",
+"grape",
+"orange",
+"banana",
+"apple",
+"grape",
+"grape",
+"banana",
+"orange",
+"apple",
+"lemon", ];
+
+function sortFructs(array) {
+  let re = array.reduce((acc, cur) => {
+    return {
+        ...acc,
+        [cur]: acc[cur] ? acc[cur] + 1 : 1
+    }
+  }, {});
+  let sort = Object.keys(re).sort((a, b) => {
+    return re[b] - re[a];
+  });
+  return sort;
+}
         </code></pre>
         </section>
-        <section>
+        <section id="education">
           <h1 class="uppercase color-green text-center mb-45">Education</h1>
           <div class="education">
             <div class="item">
@@ -327,7 +328,7 @@
             </div>
           </div>
         </section>
-        <section>
+        <section id="experience">
           <h1 class="uppercase color-green text-center mb-45">Experience</h1>
           <div class="experience padding block-shadow bg-white">
             <p><strong>Some examples from my experience:</strong></p>
@@ -389,7 +390,7 @@
             </p>
           </div>
         </section>
-        <section>
+        <section id="languages">
           <h1 class="uppercase color-green text-center mb-45">Languages</h1>
           <div class="padding block-shadow bg-white">
             <ul>
