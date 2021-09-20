@@ -1,138 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML, CSS & Git Basics</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="images/icons/css/Glyphter.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
-    <script defer src="./scripts/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/go.min.js"></script>
-    <!-- <script>hljs.highlightAll();</script> -->
-  </head>
 
-  <body class="bg-block-top hover">
-    <div class="container">
-      <header>
-        <div>
-          <h1 class="logo-name">
-            <span class="logo-name-name">Andrey</span>
-            <span class="logo-name-surname">Nestsiaruk</span>
-          </h1>
-          <p class="text-rigth">Web developer</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML, CSS & Git Basics</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="images/icons/css/Glyphter.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/arta.min.css">
+
+  <script defer src="./scripts/script.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</head>
+
+<body class="bg-block-top hover">
+  <div class="container">
+    <header>
+      <div>
+        <h1 class="logo-name">
+          <span class="logo-name-name">Andrey</span>
+          <span class="logo-name-surname">Nestsiaruk</span>
+        </h1>
+        <p class="text-rigth">Web developer</p>
+      </div>
+      <div class="hamburger hamburger-slider js-hamburger">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
         </div>
-        <div class="hamburger hamburger-slider js-hamburger">
-          <div class="hamburger-box">
-            <div class="hamburger-inner"></div>
-          </div>
-        </div>
-        <nav>
-          <ul class="uppercase">
-            <li class="item">
-              <a class="underline" href="#about">About me</a>
-            </li>
-            <li class="item"><a class="underline" href="#scills">Scills</a></li>
-            <li class="item">
-              <a class="underline" href="#examples">Code Examples</a>
-            </li>
-            <li class="item">
-              <a class="underline" href="#education">Education</a>
-            </li>
-            <li class="item">
-              <a class="underline" href="#experience">Experience</a>
-            </li>
-            <li class="item">
-              <a class="underline" href="#languages">Languages</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section class="about block-shadow">
-          <figure class="block-image">
-            <img
-              class="avatar"
-              src="./images/avatar2.jpg"
-              width="320"
-              height="350"
-              alt="people on photo"
-            />
-          </figure>
-          <div class="information">
-            <div class="block-top">
-              <div class="">
-                <div class="decor-as-speech">Hello & Welcome</div>
-                <h1>
-                  <span class="regular">I'M</span>
-                  <span class="uppercase color-green">Andrey Nestsiaruk</span>
-                </h1>
-                <h3>Front-end developer</h3>
-                <hr />
-                <ul class="contacts">
-                  <li>
-                    <strong class="fixed-width">Age</strong>
-                    <span>30</span>
-                  </li>
-                  <li>
-                    <strong class="fixed-width">Location</strong>
-                    <span>Belarus, Brest</span>
-                  </li>
-                  <li>
-                    <strong class="fixed-width">Phone</strong>
-                    <a href="tel:375336728487">+375 33 672-84-87</a>
-                  </li>
-                  <li>
-                    <strong class="fixed-width">Email</strong>
-                    <a href="mail:anjeinesty@gmail.com">anjeinesty@gmail.com</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="block-bottom">
-              <ul class="social">
+      </div>
+      <nav>
+        <ul class="uppercase">
+          <li class="item">
+            <a class="underline" href="#about">About me</a>
+          </li>
+          <li class="item"><a class="underline" href="#scills">Scills</a></li>
+          <li class="item">
+            <a class="underline" href="#examples">Code Examples</a>
+          </li>
+          <li class="item">
+            <a class="underline" href="#education">Education</a>
+          </li>
+          <li class="item">
+            <a class="underline" href="#experience">Experience</a>
+          </li>
+          <li class="item">
+            <a class="underline" href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about block-shadow">
+        <figure class="block-image">
+          <img class="avatar" src="./images/avatar2.jpg" width="320" height="350" alt="people on photo" />
+        </figure>
+        <div class="information">
+          <div class="block-top">
+            <div class="">
+              <div class="decor-as-speech">Hello & Welcome</div>
+              <h1>
+                <span class="regular">I'M</span>
+                <span class="uppercase color-green">Andrey Nestsiaruk</span>
+              </h1>
+              <h3>Front-end developer</h3>
+              <hr />
+              <ul class="contacts">
                 <li>
-                  <a
-                    class="link"
-                    href="https://www.linkedin.com/in/anjeinesty/"
-                  >
-                    <span hidden="true">linkedin</span>
-                    <i class="icon icon-glyphter icon-linkedin"></i>
-                  </a>
+                  <strong class="fixed-width">Age</strong>
+                  <span>30</span>
                 </li>
                 <li>
-                  <a class="link vk" href="https://vk.com/anjeinesty">
-                    <span hidden="true">vk</span>
-                    <i class="icon icon-glyphter icon-vk"></i>
-                  </a>
+                  <strong class="fixed-width">Location</strong>
+                  <span>Belarus, Brest</span>
                 </li>
                 <li>
-                  <a class="link" href="mailto:anjeinesty@gmail.com">
-                    <span hidden="true">email</span>
-                    <i class="icon icon-glyphter icon-mail"></i>
-                  </a>
+                  <strong class="fixed-width">Phone</strong>
+                  <a href="tel:375336728487">+375 33 672-84-87</a>
                 </li>
                 <li>
-                  <a class="link" href="https://github.com/AnjeiNesty">
-                    <span hidden="true">github</span>
-                    <i class="icon icon-glyphter icon-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a class="link" href="skype:live:.cid.5f91afafff9b953d">
-                    <span hidden="true">scype</span>
-                    <i class="icon icon-glyphter icon-scype"></i>
-                  </a>
+                  <strong class="fixed-width">Email</strong>
+                  <a href="mail:anjeinesty@gmail.com">anjeinesty@gmail.com</a>
                 </li>
               </ul>
             </div>
           </div>
-        </section>
-        <section class="skills">
-          <h1 class="uppercase color-green text-center mb-45">Skills</h1>
-          <div class="box-shadow two-column bg-white">
+          <div class="block-bottom">
+            <ul class="social">
+              <li>
+                <a class="link in" href="https://www.linkedin.com/in/anjeinesty/">
+                  <span hidden="true">linkedin</span>
+                  <i class="icon icon-glyphter icon-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a class="link vk" href="https://vk.com/anjeinesty">
+                  <span hidden="true">vk</span>
+                  <i class="icon icon-glyphter icon-vk"></i>
+                </a>
+              </li>
+              <li>
+                <a class="link" href="mailto:anjeinesty@gmail.com">
+                  <span hidden="true">email</span>
+                  <i class="icon icon-glyphter icon-mail"></i>
+                </a>
+              </li>
+              <li>
+                <a class="link" href="https://github.com/AnjeiNesty">
+                  <span hidden="true">github</span>
+                  <i class="icon icon-glyphter icon-github"></i>
+                </a>
+              </li>
+              <li>
+                <a class="link" href="skype:live:.cid.5f91afafff9b953d">
+                  <span hidden="true">scype</span>
+                  <i class="icon icon-glyphter icon-scype"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <h1 class="uppercase color-green text-center mb-45">Skills</h1>
+        <div class="block-shadow padding bg-white">
+          <div class="two-column">
             <div class="item">
               <p>
                 I'm work as a frontend developer. I take courses to check myself
@@ -140,200 +135,200 @@
                 react, js and English. I'm ready to change my job.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                In my work I use HTML, CSS, JS, jQuery, Git, VueJS. I have an experience using Cordova, React(basic),
+                React native + expo(basic).
               </p>
             </div>
             <div class="item">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              <div class="block-skills">
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/html.svg" alt="html 5">
+                  <span>HTML 5</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/css.svg" alt="css 3">
+                  <span>CSS 3</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/js.svg" alt="JavaScript">
+                  <span>JavaScript</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/jquery.svg" alt="jquery">
+                  <span>jQuery</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/git.svg" alt="git">
+                  <span>Git</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/sass.svg" alt="saas">
+                  <span>SaaS</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/webpack.svg" alt="webpack">
+                  <span>Webpack</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/cordova.svg" alt="cordova">
+                  <span>Cordova</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/vue.svg" alt="VueJs">
+                  <span>VueJs</span>
+                </div>
+                <div class="wrapper">
+                  <img class="image" src="./images/skills/react.svg" alt="react">
+                  <span>React, TS (basic)</span>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-        <section class="code">
-          <h1 class="uppercase color-green text-center mb-45">Skills</h1>
-          <pre>
-            <code class="html">
-              let mas = [
-              "banana",
-              "orange",
-              "orange",
-              "grape",
-              "orange",
-              "banana",
-              "apple",
-              "grape",
-              "grape",
-              "banana",
-              "orange",
-              "apple",
-              "lemon", ];
-          
-              function sortFructs(array) {
-                let re = array.reduce((acc, cur) => {
-                  return {
-                      ...acc,
-                      [cur]: acc[cur] ? acc[cur] + 1 : 1
-                  }
-                }, {});
-                let sort = Object.keys(re).sort((a, b) => {
-                  return re[b] - re[a];
-                });
-                return sort;
-              }
-            </code>
-          </pre>
-
-        </section>
-      </main>
-      <h1>
-        <a href="https://github.com/AnjeiNesty/rsschool-cv/">rsschool-cv</a>
-      </h1>
-      <h1>Andrey Nestsiaruk</h1>
-      <img
-        class="with-border-radius"
-        src="./images/avatar.jpg"
-        width="200"
-        height="200"
-        alt="people avatar"
-      />
-      <h1>My Contact Info:</h1>
-      <ul>
-        <li>
-          <strong>Phone:</strong>
-          <a href="tel:375336728487">+375 33 672-84-87</a>
-        </li>
-        <li>
-          <strong>Email:</strong>
-          <a href="mail:anjeinesty@gmail.com">anjeinesty@gmail.com</a>
-        </li>
-        <li>
-          <strong>GitHub:</strong>
-          <a href="https://github.com/AnjeiNesty">AnjeiNesty</a>
-        </li>
-        <li>
-          <strong>LinkedIn:</strong>
-          <a href="https://www.linkedin.com/in/anjeinesty/">AnjeiNesty</a>
-        </li>
-      </ul>
-      <h1>About me:</h1>
-      <blockquote>
-        <p>
-          I'm work as a frontend developer. I take courses to check myself and
-          learn something new that I don't know. My main target is react, js and
-          English. I'm ready to change my job.
-        </p>
-      </blockquote>
-
-      <h1>Scills:</h1>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>jQuery</li>
-        <li>Javascript</li>
-        <li>Git</li>
-        <li>Sass, Less</li>
-        <li>Gulp</li>
-        <li>Webpack</li>
-        <li>Cordova</li>
-        <li>VueJs, Vuex</li>
-        <li>React (basic level)</li>
-      </ul>
-      <h1>Code Examples:</h1>
-
-      <div class="highlight">
-        <pre>
-    let mas = [
-    "banana",
-    "orange",
-    "orange",
-    "grape",
-    "orange",
-    "banana",
-    "apple",
-    "grape",
-    "grape",
-    "banana",
-    "orange",
-    "apple",
-    "lemon", ];
-
-    function sortFructs(array) {
-      let re = array.reduce((acc, cur) => {
-        return {
-            ...acc,
-            [cur]: acc[cur] ? acc[cur] + 1 : 1
+        </div>
+      </section>
+      <section class="code">
+        <h1 class="uppercase color-green text-center mb-45">Code Examples</h1>
+        <pre class="block-shadow"><code class="language-javascript">
+        let mas = [
+        "banana",
+        "orange",
+        "orange",
+        "grape",
+        "orange",
+        "banana",
+        "apple",
+        "grape",
+        "grape",
+        "banana",
+        "orange",
+        "apple",
+        "lemon", ];
+    
+        function sortFructs(array) {
+          let re = array.reduce((acc, cur) => {
+            return {
+                ...acc,
+                [cur]: acc[cur] ? acc[cur] + 1 : 1
+            }
+          }, {});
+          let sort = Object.keys(re).sort((a, b) => {
+            return re[b] - re[a];
+          });
+          return sort;
         }
-      }, {});
-      let sort = Object.keys(re).sort((a, b) => {
-        return re[b] - re[a];
-      });
-      return sort;
-    }
-</pre
-        >
-      </div>
-
-      <h1>Education:</h1>
-      <ul>
-        <li>
-          <strong>BSTU: Higher education</strong>
+        </code></pre>
+      </section>
+      <section>
+        <h1 class="uppercase color-green text-center mb-45">Education</h1>
+        <div class="education">
+          <div class="item">
+            <div class="item-content">
+              <div class="wrapper relative">
+                <div class="text">
+                  <h2><strong>BSTU: Higher education</strong></h2>
+                  <p>Civil Engineering, Design of buildings and structures</p>
+                </div>
+              </div>
+              <div class="date">
+                <span>2009 - 2014</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="wrapper relative">
+                <div class="text">
+                  <h2><strong>Uspeh</strong></h2>
+                  <p>Web development (HTML, CSS, jQuery)</p>
+                </div>
+              </div>
+              <div class="date">
+                <span>2017 (four months)</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="wrapper relative">
+                <div class="text">
+                  <h2><strong>Dmitriy Lavrik</strong></h2>
+                  <p>Basic JavaScript course</p>
+                </div>
+              </div>
+              <div class="date">
+                <span>2019 (one month)</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-content">
+              <div class="wrapper relative">
+                <div class="text">
+                  <h2><strong>Skillbox</strong></h2>
+                  <p>React js</p>
+                </div>
+              </div>
+              <div class="date">
+                <span>2021 (in process)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="uppercase color-green text-center mb-45">Experience</h1>
+        <div class="experience padding block-shadow bg-white">
+          <p><strong>Some examples from my experience:</strong></p>
+          <div class="flex">
+            <div class="item">
+              <a href="https://elpanneteknik.com/" target="_blank">
+                <span hidden="true">layout boilers</span>
+                <img class="image" src="./images/layouts/boiler.jpg" alt="layout boilers">
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://giz.by/" target="_blank">
+                <span hidden="true">layout giz</span>
+                <img class="image" src="./images/layouts/giz.jpg" alt="layout giz">
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://magic-wars.net/" target="_blank">
+                <span hidden="true">layout magik wars</span>
+                <img class="image" src="./images/layouts/magik.jpg" alt="layout magik wars">
+              </a>
+            </div>
+            <div class="item">
+              <a href="https://ocenkabrest.by/" target="_blank">
+                <span hidden="true">layout ocenka brest</span>
+                <img class="image" src="./images/layouts/boiler.jpg" alt="layout ocenka bres">
+              </a>
+            </div>
+          </div>
+          <p>I have experience of cross-platform commercial project on Vue + Cordova. Also tasted React Native with
+            Expo.</p>
+        </div>
+      </section>
+      <section>
+        <h1 class="uppercase color-green text-center mb-45">Languages</h1>
+        <div class="padding block-shadow bg-white">
           <ul>
-            <li>Civil Engineering, Design of buildings and structures</li>
+            <li>
+              <strong>Russian</strong>
+              <ul>
+                <li>native speaker</li>
+              </ul>
+            </li>
+            <li>
+              <strong>English</strong>
+              <ul>
+                <li>A2 (Study in process...)</li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li>
-          <strong>Uspeh</strong>
-          <ul>
-            <li>Web development (HTML, CSS, jQuery)</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Dmitriy Lavrik</strong>
-          <ul>
-            <li>Basic JavaScript course</li>
-          </ul>
-        </li>
-      </ul>
-
-      <h1>Experience:</h1>
-      <ul>
-        <li>Landing pages, E-commerce websites and others</li>
-        <li>I have development experience cross-platform SPA with Cordova</li>
-        <li>A little bit experience with React Native + expo</li>
-      </ul>
-
-      <h1>Languages:</h1>
-      <ul>
-        <li>
-          <strong>Russian</strong>
-          <ul>
-            <li>native speaker</li>
-          </ul>
-        </li>
-        <li>
-          <strong>English</strong>
-          <ul>
-            <li>A2 (Study in process...)</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </body>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
 </html>

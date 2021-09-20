@@ -1,10 +1,4 @@
-
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('pre code').forEach((el) => {
-        console.log(el)
-        hljs.highlightElement(el);
-    });
-
     const burger = document.querySelector('.hamburger');
     const body = document.querySelector('body');
     burger.addEventListener('click', function () {
