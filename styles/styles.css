@@ -854,6 +854,64 @@ nav ul li {
   font-weight: bold;
 }
 
+.career .company {
+  display: flex;
+  align-items: center;
+  margin-bottom: -2px;
+}
+
+.career .company .link {
+  display: flex;
+  align-items: center;
+}
+
+.career .company .image {
+  height: 36px;
+  display: block;
+}
+
+.career-list {
+  list-style: none;
+}
+
+.career-list p {
+  margin-bottom: 5px;
+}
+
+.career-list li {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.career-list li::after {
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: -16px;
+  height: 100%;
+  width: 3px;
+  background-color: var(--color-green);
+}
+
+.career-list li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -19px;
+  height: 8px;
+  border-radius: 50%;
+  width: 8px;
+  background-color: var(--color-green);
+}
+
+.career-list li:last-child:after {
+  display: none;
+}
+
+.pl-30 {
+  padding-left: 20px;
+}
+
 @media screen and (max-width: 1279px) {
   .experience .image {
     height: 210px;
