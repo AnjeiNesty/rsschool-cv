@@ -13,10 +13,6 @@
     />
 
     <script defer src="./scripts/script.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>
-      hljs.initHighlightingOnLoad();
-    </script>
   </head>
 
   <body class="bg-block-top hover">
@@ -40,9 +36,10 @@
               <a class="link underline" href="#about">About me</a>
             </li>
             <li class="item">
-              <a class="link underline" href="#Skills">Skills</a></li>
+              <a class="link underline" href="#scills">Scills</a>
+            </li>
             <li class="item">
-              <a class="link underline" href="#code_examples">Code Examples</a>
+              <a class="link underline" href="#career">Сareer</a>
             </li>
             <li class="item">
               <a class="link underline" href="#education">Education</a>
@@ -75,7 +72,7 @@
                   <span class="regular">I'M</span>
                   <span class="uppercase color-green">Andrey Nestsiaruk</span>
                 </h2>
-                <h3>Front-end developer</h3>
+                <h3>Frontend developer</h3>
                 <hr />
                 <ul class="contacts">
                   <li>
@@ -142,14 +139,17 @@
             <div class="two-column">
               <div class="item">
                 <p>
-                  I'm work as a frontend developer. I take courses to check
-                  myself and learn something new that I don't know. My main
-                  target is react, js and English. I'm ready to change my job.
+                  I'm work as a frontend developer. I developing websites,
+                  landing pages, e-commerce pages and applications.
                 </p>
                 <p>
                   In my work I use HTML, CSS, JS, jQuery, Git, VueJS. I have an
-                  experience using Cordova, React(basic), React native +
-                  expo(basic).
+                  experience using Cordova. I also follow React and React native
+                  + expo, and have a little bit experience in it.
+                </p>
+                <p>
+                  I like technologies like Vue React. I want to evolve in this
+                  direction.
                 </p>
               </div>
               <div class="item">
@@ -239,37 +239,49 @@
             </div>
           </div>
         </section>
-        <section class="code" id="code_examples">
-          <h2 class="h1 uppercase color-green text-center mb-45">Code Examples</h2>
-          <pre class="block-shadow"><code class="language-javascript">
-let mas = [
-"banana",
-"orange",
-"orange",
-"grape",
-"orange",
-"banana",
-"apple",
-"grape",
-"grape",
-"banana",
-"orange",
-"apple",
-"lemon", ];
-
-function sortFructs(array) {
-  let re = array.reduce((acc, cur) => {
-    return {
-        ...acc,
-        [cur]: acc[cur] ? acc[cur] + 1 : 1
-    }
-  }, {});
-  let sort = Object.keys(re).sort((a, b) => {
-    return re[b] - re[a];
-  });
-  return sort;
-}
-        </code></pre>
+        <section class="career" id="career">
+          <h2 class="h1 uppercase color-green text-center mb-45">Career</h2>
+          <div class="block-shadow padding bg-white">
+            <ul class="career-list">
+              <li>
+                <p><strong>Frontend Developer</strong></p>
+                <div class="pl-30">
+                  <p class="company">
+                    <span>Company:</span>
+                    <a href="https://galior.com/" class="link" target="_blank">
+                      <img
+                        src="https://media-exp1.licdn.com/dms/image/C560BAQHsp0iOEbvMJg/company-logo_100_100/0/1519878799273?e=1643846400&amp;v=beta&amp;t=dMjhjWozhzPIPuRmjYIBUs-Krf_wdHq4IvCcY5woX7E"
+                        alt="Galior® Studio, LLC"
+                        class="image"
+                      /><span>Galior® Studio, LLC</span></a
+                    >
+                  </p>
+                  <p>Full-time</p>
+                  <p>Aug 2020 – Present Employment Duration1 yr 4 mos</p>
+                  <p>Brest, Belarus</p>
+                </div>
+              </li>
+              <li>
+                <p><strong>Markup</strong></p>
+                <div class="pl-30">
+                  <p class="company">
+                    <span>Company:</span>
+                    <a href="https://galior.com/" class="link" target="_blank">
+                      <img
+                        src="https://media-exp1.licdn.com/dms/image/C560BAQHsp0iOEbvMJg/company-logo_100_100/0/1519878799273?e=1643846400&amp;v=beta&amp;t=dMjhjWozhzPIPuRmjYIBUs-Krf_wdHq4IvCcY5woX7E"
+                        alt="Galior® Studio, LLC"
+                        class="image"
+                      /><span>Galior® Studio, LLC</span></a
+                    >
+                  </p>
+                  <p>Full-time</p>
+                  <p>Nov 2017 – Aug 2020 Employment Duration2 yrs 10 mos</p>
+                  <p>Brest, Belarus</p>
+                  <p>Website layout development</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
         <section id="education">
           <h2 class="h1 uppercase color-green text-center mb-45">Education</h2>
@@ -359,15 +371,15 @@ function sortFructs(array) {
               </div>
               <div class="item">
                 <a href="https://magic-wars.net/" target="_blank">
-                  <span class="hidden">layout magik wars</span>
+                  <span class="hidden">layout magic wars</span>
                   <img
                     class="image"
                     src="./images/layouts/magik.jpg"
-                    alt="layout magik wars"
+                    alt="layout magic wars"
                   />
                 </a>
                 <a class="caption" href="https://elpanneteknik.com/"
-                  >Magik Wars</a
+                  >Magic Wars</a
                 >
               </div>
               <div class="item">
@@ -381,6 +393,22 @@ function sortFructs(array) {
                 </a>
                 <a class="caption" href="https://elpanneteknik.com/"
                   >Ocenkabrest</a
+                >
+              </div>
+              <div class="item">
+                <a
+                  href="https://rolling-scopes-school.github.io/anjeinesty-JSFE2021Q3/momentum/"
+                  target="_blank"
+                >
+                  <span class="hidden">Momentum</span>
+                  <img
+                    class="image"
+                    src="./images/layouts/momentum.jpg"
+                    alt="momentum"
+                  />
+                </a>
+                <a class="caption" href="https://elpanneteknik.com/"
+                  >Momentum</a
                 >
               </div>
             </div>
